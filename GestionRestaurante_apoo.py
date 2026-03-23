@@ -17,3 +17,6 @@ class Mesa:
         self.numero: int = numero
         self.capacidad: int = capacidad
         self.estado: str = "Disponible"
+
+    def cambiar_estado(self, estado: str) -> None:
+        self.estado = estado
