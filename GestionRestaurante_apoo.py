@@ -10,3 +10,10 @@ class Plato:
 
     def actualizar_stock(self, cantidad: int) -> None:
         self.stock += cantidad
+
+
+class Mesa:
+    def __init__(self, numero: int, capacidad: int) -> None:
+        self.numero: int = numero
+        self.capacidad: int = capacidad
+        self.estado: str = "Disponible"
